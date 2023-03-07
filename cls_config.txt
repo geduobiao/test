@@ -1,0 +1,16 @@
+passwd_elastic=HF*view308
+passwd_mondb=FYH*mon369
+passwd_checkdb=Elasticyel_2022
+HighPermissionUserName=allindic
+HighPermissionUserPasswd=Elasticyel_2022
+cluster_name=es-swtzsb
+indices_name=["log-*","swtesb-*"]
+node_name  ip             role
+node-1     11.24.67.148   [master,data,ingest]
+node-2     11.24.67.149   [master,data,ingest]
+node-3     11.24.67.150   [master,data,ingest]
+
+
+
+http 端口19200
+transport 端口19300
